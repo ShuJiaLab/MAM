@@ -1,0 +1,90 @@
+﻿Build started 1/3/2020 2:09:48 PM.
+     1>Project "C:\Users\shujia\Desktop\Miniscope_DAQ_Software-master\Miniscope_DAQ_Software-master\MiniScopeControl.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv\build\include /I\x64\vc11\bin /Iopencv_world300.lib /Iopencv_world300d.lib /Iopencv_world300.dll /Iopencv_world300d.dll /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\MiniScopeControl.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt MiniScopeControl.cpp MiniScopeControlDlg.cpp
+         MiniScopeControl.cpp
+         MiniScopeControlDlg.cpp
+     1>MiniScopeControlDlg.cpp(558): warning C4244: '=' : conversion from 'LONGLONG' to 'UINT', possible loss of data
+     1>MiniScopeControlDlg.cpp(564): warning C4244: 'argument' : conversion from 'LONGLONG' to 'UINT', possible loss of data
+     1>MiniScopeControlDlg.cpp(897): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(1354): warning C4805: '==' : unsafe mix of type 'BOOL' and type 'bool' in operation
+     1>MiniScopeControlDlg.cpp(1356): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>MiniScopeControlDlg.cpp(1376): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>MiniScopeControlDlg.cpp(1398): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>MiniScopeControlDlg.cpp(1419): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>MiniScopeControlDlg.cpp(1440): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>MiniScopeControlDlg.cpp(1460): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>MiniScopeControlDlg.cpp(1480): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>MiniScopeControlDlg.cpp(1501): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>MiniScopeControlDlg.cpp(1521): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>MiniScopeControlDlg.cpp(1542): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>MiniScopeControlDlg.cpp(1562): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>MiniScopeControlDlg.cpp(1583): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>MiniScopeControlDlg.cpp(1620): warning C4244: '=' : conversion from 'double' to 'LONGLONG', possible loss of data
+     1>MiniScopeControlDlg.cpp(1622): warning C4244: '=' : conversion from 'double' to 'UINT', possible loss of data
+     1>MiniScopeControlDlg.cpp(2256): warning C4244: '=' : conversion from 'double' to 'UINT', possible loss of data
+     1>MiniScopeControlDlg.cpp(2258): warning C4244: '=' : conversion from 'double' to 'UINT', possible loss of data
+     1>MiniScopeControlDlg.cpp(2403): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(2408): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(2413): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(2418): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(2423): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(2428): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(2433): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(2438): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(2443): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(2448): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(2453): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(2458): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(2498): warning C4244: '=' : conversion from 'double' to 'UINT', possible loss of data
+     1>MiniScopeControlDlg.cpp(3052): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(3053): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(3054): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(3055): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(3056): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(3057): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(3058): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(3059): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(3060): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(3061): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(3062): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(3063): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>MiniScopeControlDlg.cpp(2354): warning C4101: 'startTime11' : unreferenced local variable
+     1>MiniScopeControlDlg.cpp(2334): warning C4101: 'startTime1' : unreferenced local variable
+     1>MiniScopeControlDlg.cpp(2351): warning C4101: 'endTime9' : unreferenced local variable
+     1>MiniScopeControlDlg.cpp(2343): warning C4101: 'endTime5' : unreferenced local variable
+     1>MiniScopeControlDlg.cpp(2335): warning C4101: 'endTime1' : unreferenced local variable
+     1>MiniScopeControlDlg.cpp(2352): warning C4101: 'startTime10' : unreferenced local variable
+     1>MiniScopeControlDlg.cpp(2344): warning C4101: 'startTime6' : unreferenced local variable
+     1>MiniScopeControlDlg.cpp(2346): warning C4101: 'startTime7' : unreferenced local variable
+     1>MiniScopeControlDlg.cpp(2345): warning C4101: 'endTime6' : unreferenced local variable
+     1>MiniScopeControlDlg.cpp(2337): warning C4101: 'endTime2' : unreferenced local variable
+     1>MiniScopeControlDlg.cpp(2348): warning C4101: 'startTime8' : unreferenced local variable
+     1>MiniScopeControlDlg.cpp(2353): warning C4101: 'endTime10' : unreferenced local variable
+     1>MiniScopeControlDlg.cpp(2350): warning C4101: 'startTime9' : unreferenced local variable
+     1>MiniScopeControlDlg.cpp(2347): warning C4101: 'endTime7' : unreferenced local variable
+     1>MiniScopeControlDlg.cpp(2339): warning C4101: 'endTime3' : unreferenced local variable
+     1>MiniScopeControlDlg.cpp(2355): warning C4101: 'endTime11' : unreferenced local variable
+     1>MiniScopeControlDlg.cpp(2349): warning C4101: 'endTime8' : unreferenced local variable
+     1>MiniScopeControlDlg.cpp(2341): warning C4101: 'endTime4' : unreferenced local variable
+     1>MiniScopeControlDlg.cpp(2340): warning C4101: 'startTime4' : unreferenced local variable
+     1>MiniScopeControlDlg.cpp(2342): warning C4101: 'startTime5' : unreferenced local variable
+     1>MiniScopeControlDlg.cpp(2338): warning C4101: 'startTime3' : unreferenced local variable
+     1>MiniScopeControlDlg.cpp(2336): warning C4101: 'startTime2' : unreferenced local variable
+     1>MiniScopeControlDlg.cpp(3371): warning C4101: 'temp' : unreferenced local variable
+     1>MiniScopeControlDlg.cpp(3350): warning C4101: 'previousTime' : unreferenced local variable
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0409" /Ix64\Release\ /nologo /fo"x64\Release\MiniScopeControl.res" MiniScopeControl.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\shujia\Desktop\Miniscope_DAQ_Software-master\Miniscope_DAQ_Software-master\x64\Release\MiniScopeControl.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\opencv\build\x64\vc11\lib opencv_world300.lib opencv_world300d.lib opencv_shape400.lib opencv_shape400d.lib opencv_videostab400d.lib opencv_videostab400d.lib opencv_videostab249d.lib opencv_videostab249.lib opencv_videoio400d.lib opencv_videoio400.lib opencv_video400d.lib opencv_video400.lib opencv_video249d.lib opencv_video249.lib opencv_imgcodecs400d.lib opencv_imgcodecs400.lib opencv_imgcodecs300d.lib opencv_core400d.lib opencv_imgcodecs300d.lib opencv_imgproc400d.lib opencv_flann400d.lib opencv_objdetect400d.lib opencv_calib3d400d.lib opencv_features2d400d.lib opencv_highgui400d.lib opencv_video400d.lib opencv_ml400d.lib opencv_calib3d249.lib opencv_contrib249.lib opencv_core249.lib opencv_features2d249.lib opencv_flann249.lib opencv_gpu249.lib opencv_highgui249.lib opencv_imgproc249.lib opencv_legacy249.lib opencv_ml249.lib opencv_nonfree249.lib opencv_objdetect249.lib opencv_photo249.lib opencv_stitching249.lib opencv_superres249.lib opencv_ts249.lib opencv_video249.lib opencv_videostab249.lib opencv_gpu249.lib opencv_gpu249d.lib opencv_highgui249.lib opencv_highgui249d.lib opencv_highgui400.lib opencv_highgui400d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\shujia\Desktop\Miniscope_DAQ_Software-master\Miniscope_DAQ_Software-master\x64\Release\MiniScopeControl.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\shujia\Desktop\Miniscope_DAQ_Software-master\Miniscope_DAQ_Software-master\x64\Release\MiniScopeControl.lib" /MACHINE:X64 x64\Release\MiniScopeControl.res
+         x64\Release\MiniScopeControl.obj
+         x64\Release\MiniScopeControlDlg.obj
+         x64\Release\stdafx.obj
+         Generating code
+         Finished generating code
+         MiniScopeControl.vcxproj -> C:\Users\shujia\Desktop\Miniscope_DAQ_Software-master\Miniscope_DAQ_Software-master\x64\Release\MiniScopeControl.exe
+     1>Done Building Project "C:\Users\shujia\Desktop\Miniscope_DAQ_Software-master\Miniscope_DAQ_Software-master\MiniScopeControl.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.82
